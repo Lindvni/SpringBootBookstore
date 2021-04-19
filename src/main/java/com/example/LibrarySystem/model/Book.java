@@ -1,16 +1,21 @@
-package com.example.LibrarySystem.Model;
+package com.example.LibrarySystem.model;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name ="Library")
-public class book {
-    @javax.persistence.Id
+public class Book {
+    @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int Id;
 
 
-    @Column(name ="ISBN")
+
     private String ISBN ;
 
     public int getId() {
