@@ -1,8 +1,9 @@
-package com.example.LibrarySystem.repository;
+package com.example.librarysystem.repository;
 
-import com.example.LibrarySystem.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.example.librarysystem.model.Book;
 
 @Repository
 public interface BookRepo extends JpaRepository<Book,Long> {

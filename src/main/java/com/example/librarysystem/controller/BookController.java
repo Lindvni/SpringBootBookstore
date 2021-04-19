@@ -1,6 +1,5 @@
-package com.example.LibrarySystem.controller;
+package com.example.librarysystem.controller;
 
-import com.example.LibrarySystem.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import com.example.librarysystem.service.BookService;
 
 import java.awt.print.Book;
 

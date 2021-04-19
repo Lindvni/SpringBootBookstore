@@ -1,7 +1,8 @@
-package com.example.LibrarySystem.service;
+package com.example.librarysystem.service;
 
-import com.example.LibrarySystem.model.Book;
 import org.springframework.stereotype.Repository;
+
+import com.example.librarysystem.model.Book;
 
 import java.util.List;
 
